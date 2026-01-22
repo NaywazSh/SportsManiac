@@ -1,7 +1,7 @@
 "use client";
-import { useAppStore } from '@/sports-maniac/lib/store';
+import { useAppStore } from '@/lib/store';
 import { Menu, Search, User, Globe } from 'lucide-react';
-import { Region } from '@/sports-maniac/lib/data';
+import { Region } from '@/lib/data';
 
 export default function Navbar() {
   const { region, setRegion } = useAppStore();

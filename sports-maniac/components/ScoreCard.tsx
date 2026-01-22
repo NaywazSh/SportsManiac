@@ -1,4 +1,4 @@
-import { Match } from '@/sports-maniac/lib/data';
+import { Match } from '@/lib/data';
 import { PlayCircle } from 'lucide-react';
 
 export default function ScoreCard({ match }: { match: Match }) {
