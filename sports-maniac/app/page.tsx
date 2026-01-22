@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import Navbar from '@/sports-maniac/components/Navbar';
-import ScoreCard from '@/sports-maniac/components/ScoreCard';
-import NewsFeed from '@/sports-maniac/components/NewsFeed';
-import RightSidebar from '@/sports-maniac/components/RightSidebar';
-import { useAppStore } from '@/sports-maniac/lib/store';
-import { DATA_BY_REGION } from '@/sports-maniac/lib/data';
+import Navbar from '@/components/Navbar';
+import ScoreCard from '@/components/ScoreCard';
+import NewsFeed from '@/components/NewsFeed';
+import RightSidebar from '@/components/RightSidebar';
+import { useAppStore } from '@/lib/store';
+import { DATA_BY_REGION } from '@/lib/data';
 
 export default function Home() {
   const { region } = useAppStore();
