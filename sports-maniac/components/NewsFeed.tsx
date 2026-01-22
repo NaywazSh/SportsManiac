@@ -1,4 +1,4 @@
-import { NewsItem } from '@/lib/data';
+import { NewsItem } from '@/sports-maniac/lib/data';
 
 export default function NewsFeed({ news }: { news: NewsItem[] }) {
   return (
